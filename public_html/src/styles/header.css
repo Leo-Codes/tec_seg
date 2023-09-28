@@ -1,0 +1,134 @@
+@media only screen and (min-width: 768px){
+    .header{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0rem 3rem;
+        width: 100%;
+        border: 1px solid rgba(235, 235, 235, 0.548);
+        background:white;
+        box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.1);
+        /* background:var(--primary-color); */
+        /* background:rgb(4, 173, 4); */
+        /* justify-content: space-between; */
+    }
+    
+    /* .header .logo{
+        font-family: 'Black Ops One';
+        margin-right: 5rem;
+        font-size: 1.2rem;
+        background:var(--primary-color);
+        color:white;
+        padding: 0.5rem 1.5rem;
+        transform: skewX(25deg);
+        border-radius: 6px;
+    } */
+    
+    .header .logo-img{
+        display: flex;
+        width: fit-content;
+        margin-right: 15%;
+        /* filter: filter; */
+    }
+    
+    .header .logo-img img{
+        width: 10rem;
+        height: auto;
+    }
+    
+    .header .logo h2 {
+        transform: skewX(-25deg);
+        font-weight: 400;
+    }
+    
+    .header .pages{
+        display: flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.95rem;
+        color:#161637 !important;
+        /* color:rgb(241, 241, 241); */
+        gap: 2rem;
+        min-width: fit-content;
+    }
+    .buttons{
+        display:flex;
+        height: 100%;
+        width: 100%;
+        justify-content:end;
+        align-items: center;
+        gap:1rem;
+    }
+    
+    .buttons button{
+        font-family: 'Poppins';
+        font-weight: 500;
+        padding: 0.6rem 1.8rem;
+        border:none;
+        border-radius: 10px;
+        background:none;
+    }
+    
+    .buttons .green{
+         background: rgba(165, 255, 165, 0.308);
+        color:var(--primary-color);
+        /* color:white; */
+        /* background: var(--primary-color); */
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 1rem;
+        width: 100%;
+        border: 1px solid rgb(235, 235, 235);
+        background:white;
+        box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.1);
+
+    }
+    
+    .header .logo-img{
+        display: flex;
+        width: fit-content;
+        /* margin-right: 10%; */
+    }
+    
+    .header .logo-img img{
+        width: 8rem;
+        height: auto;
+    }
+    
+    .header .pages{
+        display:none;
+    }
+    .header .buttons{
+        display:flex;
+        height: 100%;
+        width: 100%;
+        justify-content:end;
+        align-items: center;
+        gap:1rem;
+    }
+    
+   .header .buttons button{
+        font-family: 'Poppins';
+        font-weight: 500;
+        padding: 0.6rem 1.8rem;
+        border:none;
+        border-radius: 10px;
+        background:none;
+    }
+    
+    .header .buttons .green{
+         background: rgba(165, 255, 165, 0.308);
+        color:var(--primary-color);
+        /* color:white; */
+        /* background: var(--primary-color); */
+    }
+    
+}
