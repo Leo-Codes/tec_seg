@@ -13,7 +13,16 @@
         <div class="layout">
             <?php include('./src/components/header.html'); ?>
             <link rel="stylesheet" href="./src/styles/header.css">
-
+            <div class="action-buttons">
+                <a href="./src/downloads/MODELO TECSEG - AR, PLANO DE AÇÃO.xlsx" class="modelo-excel">
+                    <img src="./src/images/excel_icon.png" alt="">
+                    <span>Baixe Nosso Modelo</span>
+                </a>
+                <a href="feedback.php" class="modelo-excel">
+                    <img src="./src/images/feedback_icon2.png" alt="">
+                    <span>Deixe seu Feedback</span>
+                </a>
+            </div>
             <div class="cards-container">
                 <a href='riscos-perigos.php' class="card">
                     <div class="card-img">
@@ -60,13 +69,13 @@
                         <p>Um guia para Análises de Riscos</p>
                     </div>
                 </a>
-                <a href='medidas-prevencao.php' class="card">
+                <a href='plano-acao.php' class="card">
                     <div class="card-img">
                         <img src="./src/svg/medidas-prevencao.svg" alt="">
                     </div>
                     <div class="card-description">
                         <div class="card-title">
-                            <span>Medidas de Prevenção</span>
+                            <span>Plano de Ação</span>
                         </div>
                         <p>Praticas e Normas para tornar o ambiente de trabalho mais seguro.</p>
                     </div>
