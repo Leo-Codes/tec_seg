@@ -462,7 +462,7 @@ body {
     .articles .article img, .article svg{
         height: auto;
         width:99%;
-        margin: auto 0;
+        margin: 1rem 0;
         /* padding-top: 2rem; */
     }
 
