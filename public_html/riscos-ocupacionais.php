@@ -20,11 +20,7 @@
                 <div class="big-title">
                     <h2>RISCOS OCUPACIONAIS</h2>
                 </div>
-                <div class="subtitle">
-                    <div class="red-dash"></div>
-                    <img src="./src/images/warning_4201965.png" alt="">
-                    <div class="red-dash"></div>
-                </div>
+                <span class='subtitle green-text-mark'>Avalie e Priorize os Perigos no Ambiente de Trabalho.</span>
             </div>
 
             <div class="introduction-panel">

@@ -115,7 +115,7 @@
     .articles .article img{
         height: auto;
         width:70%;
-        margin: 0 auto;
+        margin: 1rem auto;
         /* padding-top: 2rem; */
     }
 

@@ -37,6 +37,46 @@ body {
     max-width: 100%;
 
 }
+
+
+.action-buttons{
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 2rem;
+    /* padding: 0 0.8rem;*/
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.action-buttons a{
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    /* gap: 0.5rem; */
+    padding: 0rem .2rem;
+    height: 3rem;
+    
+}
+.action-buttons img{
+    border: 4px solid var(--dark-green);
+    height: 100%;
+    padding: 0.1rem 0.3rem;
+}
+.action-buttons span{
+    display: flex;
+    align-items: center;
+    background: var(--dark-green);
+    border: 1px solid var(--dark-green);
+    font-family: 'Poppins';
+    font-weight: 500;
+    height: 100%;
+    padding: 0.3rem 0.6rem;
+    color: white;
+
+}
+
 @media only screen and (min-width: 768px) {
     .back-button{
         position: relative;
@@ -183,6 +223,8 @@ body {
         justify-content: center;
         align-content: center;
         margin: 0 auto;
+        padding-bottom: 5rem;
+
     }
     p, .default-text{
         /* border-left: 4px solid rgb(41, 196, 2); */
@@ -396,6 +438,7 @@ body {
         justify-content: center;
         align-content: center;
         margin: 0 auto;
+        padding-bottom: 5rem;
     }
     p, .default-text{
         /* border-left: 4px solid rgb(41, 196, 2); */
